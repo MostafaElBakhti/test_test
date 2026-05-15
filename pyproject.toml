@@ -1,10 +1,15 @@
 [project]
 name = "slak"
 version = "0.1.0"
-description = "Add your description here"
+description = "Introduction to function calling in LLMs"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "numpy>=2.2.6",
-    "pydantic>=2.13.4",
+    "pydantic>=2.0.0",
+    "numpy>=1.24.0",
+    "torch>=2.0.0",
+    "transformers>=4.40.0",
+    "accelerate>=0.30.0",
+    "flake8>=6.0.0",
+    "mypy>=1.0.0",
 ]
