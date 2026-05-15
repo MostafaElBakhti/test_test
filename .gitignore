@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environment
+.venv/
+
+# uv
+.uv/
+
+# Project output (generated during peer review)
+data/output/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
