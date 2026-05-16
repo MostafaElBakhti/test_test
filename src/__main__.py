@@ -156,6 +156,20 @@ def main() -> None:
                             for k, v in parsed["parameters"].items()
                             if k in valid_params
                         }
+                        for param_name, param_value in (
+                            parsed["parameters"].items()
+                        ):
+                            param_def = function_def.parameters[param_name]
+                            param_type = param_def.type
+                            params = parsed["parameters"]
+                            if param_type == "number":
+                                params[param_name] = float(param_value)
+                            elif param_type == "integer":
+                                params[param_name] = int(param_value)
+                            elif param_type == "string":
+                                params[param_name] = str(param_value)
+                            elif param_type == "boolean":
+                                params[param_name] = bool(param_value)
                     if parsed["name"] is None:
                         results.append(
                             {
