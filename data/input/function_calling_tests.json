@@ -1,32 +1,35 @@
 [
-  {"prompt": ""},
-  {"prompt": "Add 100 and 200"},
-  {"prompt": "What is 50 plus 75?"},
-  {"prompt": "Calculate 999 + 1"},
-  {"prompt": "Greet shrek"},
-  {"prompt": "Say hello to Alice"},
-  {"prompt": "Hello to Bob"},
-  {"prompt": "Greet my friend John"},
-  {"prompt": "Reverse the string 'hello'"},
-  {"prompt": "Flip the word 'python'"},
-  {"prompt": "Reverse 'abcdef'"},
-  {"prompt": "What is the reverse of 'world'?"},
-  {"prompt": "What is the square root of 16?"},
-  {"prompt": "Calculate sqrt of 144"},
-  {"prompt": "Square root of 0"},
-  {"prompt": "What is sqrt(225)?"},
-  {"prompt": "Replace all numbers in 'hello 123 world 456' with NUM"},
-  {"prompt": "Replace all vowels in 'python' with *"},
-  {"prompt": "Substitute cat with dog in 'the cat sat'"},
-  {"prompt": "Replace all whitespace in 'hello world' with _"},
-  {"prompt": "What is the weather today?"},
-  {"prompt": "Tell me a joke"},
-  {"prompt": "What is the capital of France?"},
-  {"prompt": "Can you sing for me?"},
-  {"prompt": "What is the meaning of life?"},
-  {"prompt": "Who is the president?"},
-  {"prompt": "What time is it?"},
-  {"prompt": "How do I make pasta?"},
-  {"prompt": "What is 2 * 3?"},
-  {"prompt": ""}
+  {
+    "prompt": "What is the sum of 2 and 3?"
+  },
+  {
+    "prompt": "What is the sum of 265 and 345?"
+  },
+  {
+    "prompt": "Greet shrek"
+  },
+  {
+    "prompt": "Greet john"
+  },
+  {
+    "prompt": "Reverse the string 'hello'"
+  },
+  {
+    "prompt": "Reverse the string 'world'"
+  },
+  {
+    "prompt": "What is the square root of 16?"
+  },
+  {
+    "prompt": "Calculate the square root of 144"
+  },
+  {
+    "prompt": "Replace all numbers in \"Hello 34 I'm 233 years old\" with NUMBERS"
+  },
+  {
+    "prompt": "Replace all vowels in 'Programming is fun' with asterisks"
+  },
+  {
+    "prompt": "Substitute the word 'cat' with 'dog' in 'The cat sat on the mat with another cat'"
+  }
 ]

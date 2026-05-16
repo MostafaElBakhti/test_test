@@ -1,5 +1,5 @@
 [project]
-name = "slak"
+name = "CallMeMaybe"
 version = "0.1.0"
 description = "Introduction to function calling in LLMs"
 readme = "README.md"
